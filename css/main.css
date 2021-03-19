@@ -18,7 +18,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	flex-basis: 300px;
 }
 
 h1,
@@ -55,6 +54,9 @@ header h1 {
 	margin: 0;
 	padding: 20px 0;
 	border-bottom: 3px solid #77a466;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 header h1 span {
 	color: #77a466;
@@ -62,6 +64,7 @@ header h1 span {
 
 header nav {
 	padding: 15px 0;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
@@ -96,6 +99,7 @@ header nav ul li a{
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
 }
 
 .main-title {
@@ -115,10 +119,9 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-	flex-basis: 300px;
 }
 
 .menu {
